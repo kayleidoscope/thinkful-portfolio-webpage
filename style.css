@@ -1,0 +1,137 @@
+body {
+  background-color: black;
+}
+
+/* Header rules */
+
+header img {
+  width: 200px;
+  float: right;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+header {
+  background-color: #306B34;
+  color: white;
+  width: 700px;
+  height: 300px;
+  clear: both;
+}
+
+header h2 {
+  line-height: 0px;
+}
+
+/* horizontal line rules */
+
+hr {
+  clear: right;
+  background-image: url("images/hr.png");
+  height: 100px;
+  width: 250px;
+  border: none;
+}
+
+/* navbar rules */
+
+.navbar {
+  float: right;
+  background-color: #34F6F2;
+  width: 350px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.navbar a:visited, .navbar a:link {
+  color: black;
+}
+
+/* about section rules */
+
+#about {
+  background-color: #1E96FC;
+  color: white;
+  width: 700px;
+  float: right;
+  margin-top: 40px;
+}
+
+.about-text {
+  float: right;
+  width: 400px;
+}
+
+#about img {
+  float: left;
+  width: 300px;
+  margin: -20px;
+}
+
+/* portfolio rules */
+
+#portfolio {
+  background-color: #772D8B;
+  color: white;
+  width: 700px;
+  padding: 15px 15px 15px 0px;
+  margin-top: 40px;
+}
+
+.fall-vibes img {
+  width: 600px;
+  margin-left: 40px;
+}
+
+#portfolio a:visited, #portfolio a:link {
+  color: white;
+}
+
+/* contact section rules */
+
+#contact {
+  background-color: #FCF300;
+  text-align: center;
+  color: black;
+}
+
+#contact a:visited, #contact a:link {
+  color: black;
+}
+
+/* misc. rules */
+
+header p, #portfolio p {
+  margin-left: 25px;
+}
+
+a, p, li {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  margin: 40px;
+  font-size: 30px;
+  }
+
+
+h3 {
+  font-family: 'Inconsolata', monospace;
+  margin: 20px;
+  padding: 10px;
+  background-color: gray;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  margin: 20px;
+  padding-top: 40px;
+  font-size: 50px;
+  line-height: 0px;
+}
+
+footer {
+  color: white;
+}
