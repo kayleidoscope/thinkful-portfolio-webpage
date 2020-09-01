@@ -9,22 +9,24 @@
      <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">   
   </head>
   <body>
-    <nav class="navbar">
-        <p><a href="#top">Back to top</a> // <a href="#about">About Kay</a> // <a href="#portfolio">Portfolio</a> // <a href="#contact">Contact</a></p>
-      </nav>
-    <header>
-        <h1 id="top">Kay Walten</h1>
-        <h2>software developer</h2>
-        <div class="intro-group">
-          <div class="item">
-            <p>Hello from Portland!</p>
-            <p>Looking for fun designs with an excellent eye for detail? Look no further!</p>
+      <nav class="navbar">
+          <a href="#about">About Kay</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      <header>
+          <h1 id="top">Kay Walten</h1>
+          <h2 style="padding-top: 0">software developer</h2>
+          <div class="intro-group">
+            <div class="item">
+              <p>Hello from Portland, Oregon!</p>
+              <p>Looking for fun designs with an excellent eye for detail? Look no further!</p>
+            </div>
+            <div class="item">
+              <img src="images/header-img.jpg" alt="Kay Walten standing in a forest">
+            </div>
           </div>
-          <div class="item">
-            <img src="images/header-img.jpg" alt="Kay Walten standing in a forest">
-          </div>
-        </div>
-    </header>
+      </header>
     <!-- hr graphic made with Canva-->
     <hr>
     <main>
@@ -36,7 +38,7 @@
               <img src="images/about-tree.jpg" alt="Kay stands on a large tree stump">
             </div>
           <div class="item">
-            <p>As a former newspaper copyeditor, I was great at finding errant commas, but I wanted those errant to commas to matter, and so my career change began!</p>
+            <p>As a former newspaper copyeditor, I was great at finding errant commas, but I wanted to put my eagle eye to better use, and so my career change began!</p>
             <p>Now that I'm learning coding from Thinkful, I'm basking in the fun puzzles I get to solve and people I get to meet!</p>
             <p>What services do I provide? Well I'm glad you asked!</p>
             <div class="services-group">
@@ -59,7 +61,7 @@
                 <li>chilling with my cat</li>
                 <li>cross-stitching</li>
                     <!-- I am currently working on an enormous cross-stitch of the first gen of Pokemon. -->
-                <li>using too many exclamation points in work</li>
+                <li>using too many exclamation points</li>
               </ol>
           </div>
         </div>
@@ -74,12 +76,16 @@
             <h3>Fall Vibes</h3>
             <p>You know that fall feeling? The crisp air, the comfy clothes, the delicious drinks? This website sells a magical potion that will make you feel just that way, even if it's the hottest, most miserable day of the summer.</p>
             <p>Created using HTML and CSS.</p>
+            <p><a href="https://github.com/kayleidoscope/fall-vibes">See Fall Vibes on GitHub</a></p>
             <p><a href="https://codepen.io/kayleidoscope/pen/jgBPjX">Visit Fall Vibes</a></p>
           </div>
           <div class="item">
             <img src="images/portfolio-placeholder.png" alt="A screenshot of a portfolio piece of a website called Fall Vibes.">
             <h3>Upcoming</h3>
             <p>When another project exists, it will be described here!</p>
+            <p>Created using [insert stack here].</p>
+            <p><a href="#">Placeholder GitHub link</a></p>
+            <p><a href="#">Placeholder website link</a></p>
           </div>
           <div class="item">
             <h3>Future projects</h3>
@@ -95,9 +101,35 @@
       <hr>
       <article id="contact">
         <h2>Contact me!</h2>
-        <p><a href="https://www.linkedin.com/in/kay-walten-7069abb0/" target="_blank">LinkedIn</a>
-         // <a href="https://github.com/kayleidoscope" target="_blank">GitHub</a> // 
-        <a href="mailto:holtenkay@gmail.com">Email</a></p>
+        <div class="contact-group">
+          <div class="contact-item">
+          <h3>See my work and get in touch with me:</h3>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/kay-walten-7069abb0/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/kayleidoscope" target="_blank">GitHub</a></li>
+              <li><a href="mailto:holtenkay@gmail.com">Email</a></li>
+            </ul>
+          </div>
+          <div class="contact-item">
+            <p>Want to hire me? Or tell me my website is the best  website you've ever seen?
+              You'd better send me a form then!
+            </p>
+            <form action="https://formspree.io/YOUR_EMAIL_HERE"
+            method="post">
+              <fieldset>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required>
+                <label for="email">Email address</label>
+                <input id="email" type="email" name="email" required>
+                <label for="company">Company</label>
+                <input id="company" type="text" name="company">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Let's talk!"></textarea>
+                <button type="submit">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
       </article>
     </main>
     <footer>
