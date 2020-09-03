@@ -110,8 +110,8 @@ header h2 {
 }
 
 .services-group {
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -232,5 +232,9 @@ button {
   header h2 {
     font-size: 3vw;
     padding-top: 1.5ch;
+  }
+
+  .services-group {
+    flex-direction: row;
   }
 }
