@@ -14,19 +14,23 @@ hr {
 
 h1 {
   font-family: 'Righteous', cursive;
-  margin: 20px;
+  margin: 10px;
   padding-top: 40px;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 0px;
 }
 
 h2 {
   font-family: 'Inconsolata', monospace;
-  margin: 40px;
+  margin: 20px;
   padding-top: 30px;
   font-size: 30px;
   }
 
+header h2 {
+  font-size: 20px;
+  padding-top: 10px;
+}
 
 h3 {
   font-family: 'Inconsolata', monospace;
@@ -84,6 +88,7 @@ header {
   max-width: 800px;
   clear: both;
   border-radius: 0 25px 25px 0;
+  margin-top: 20px;
 }
 
 header img {
@@ -104,10 +109,11 @@ header h2 {
 }
 
 .services-group {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   width: 100%;
 }
+
 
 #about {
   background-color: #1E96FC;
@@ -217,4 +223,13 @@ button {
     margin-bottom: 15px;
   }
 
+  h1 {
+    font-size: 5vw;
+  }
+
+
+  header h2 {
+    font-size: 3vw;
+    padding-top: 30px;
+  }
 }
